@@ -63,10 +63,12 @@ The background color and design changes according to the time zone.
 <br />
 </div>
 
+<p align="center" width="100%">
 <img src="./img/3.png" alt="num1" width="200"/>
 <img src="./img/4.png" alt="num1" width="200"/>
 <img src="./img/1.png" alt="num1" width="200"/>
 <img src="./img/2.png" alt="num1" width="200"/>
+</p>
 
 <br />
 

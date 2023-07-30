@@ -2,17 +2,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="Timebridge">
+    <section className="c-wrapper">
+    <div className="flexCenter paddings innerWidth c-container">
       <div>
-      <h3> Username location</h3>
-      <select>
-        <h2 className='label-wrapper'>
+        <h4> I'm in Germany</h4>
+      <section class='times'>
           <label htmlFor='location-info' className='loca_info'></label>
-        </h2>
-      </select>
+          <div>
+            <h4>SF</h4>
+            <output>00:00:00</output>
+          </div>
+      </section>
       </div>
       <div>
-      <h3> Username location</h3>
+      <h4> You're in Unite States</h4>
       <select>
         <h2 className='label-wrapper'>
           <label htmlFor='location-info' className='loca_info'></label>
@@ -20,6 +23,7 @@ function App() {
       </select>
       </div>
     </div>
+    </section>
   );
 }
 

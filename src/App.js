@@ -1,30 +1,24 @@
 import './App.css';
+import { useState } from "react";
+import './App.css';
 
 function App() {
-  return (
-    <section className="c-wrapper">
-    <div className="flexCenter paddings innerWidth c-container">
-      <div>
-        <h4> I'm in Germany</h4>
-      <section class='times'>
-          <label htmlFor='location-info' className='loca_info'></label>
-          <div>
-            <h4>SF</h4>
-            <output>00:00:00</output>
+    let time = new Date().toLocaleTimeString();
+    let todaydate = new Date().toLocalDateString();
+    const [currentTime, setCurrentTime] = useState(time);
+
+    const updateTime = () => {
+      let time = new Date().toLocaleTimeString();
+      setCurrentTime(time);
+    }
+
+    setInterval(updateTime, 1000);
+      return (
+          <div className = "clock">
+          <h1> {currentTime} </h1>
+          <h3> {todaydate} </h3>
           </div>
-      </section>
-      </div>
-      <div>
-      <h4> You're in Unite States</h4>
-      <select>
-        <h2 className='label-wrapper'>
-          <label htmlFor='location-info' className='loca_info'></label>
-        </h2>
-      </select>
-      </div>
-    </div>
-    </section>
-  );
+      )
 }
 
 export default App;

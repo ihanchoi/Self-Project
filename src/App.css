@@ -1,3 +1,73 @@
+.clock{
+  width: 95vw;
+  height: 95vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+.clock h1{ 
+  border: 2px solid burlywood;
+  width: 250px;
+  margin: 40vh auto 0px auto;
+  border-radius: 15px;
+  padding: 10px 0;
+  background-color: cornsilk;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+h1{
+  font-family: 'Alegreya Sans';
+  color: #FFB74B;
+  fontSize: 26;
+  fontWeight: '700';
+  wordWrap: 'break-word'
+}
+
+h3{
+  color: '#A8A8A8';
+  fontSize: 15;
+  fontFamily: 'Inter';
+  fontWeight: '400';
+  wordWrap: 'break-word'
+}
+
+/* 
+// shhhh it’s late
+color: '#FFCE5C';
+ fontSize: 20;
+ fontFamily: 'Alegreya Sans';
+ fontWeight: '300';
+ wordWrap: 'break-word'
+---
+// Fri, Apr 20, 2023
+color: 'white';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Unite States
+color: 'white';
+ fontSize: 26;
+ fontFamily: 'Alegreya Sans';
+ fontWeight: '700';
+ wordWrap: 'break-word'
+---
+// You’re in 
+color: 'white';
+ fontSize: 26;
+ fontFamily: 'Alegreya Sans';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// shhhh it’s late
+color: '#FFCE5C';
+ fontSize: 20;
+ fontFamily: 'Alegreya Sans';
+ fontWeight: '300';
+ wordWrap: 'break-word' */
+
+
 /* .App {
   text-align: center;
 }
